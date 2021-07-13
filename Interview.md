@@ -56,10 +56,46 @@
 
       Spring Boot simplifies the spring feature for the user:
 
-      ![img](https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/245/original/Difference_Between_Spring_and_Spring_Boot.png?1616150564)
+      <img src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/245/original/Difference_Between_Spring_and_Spring_Boot.png?1616150564" alt="img" style="zoom: 20%;" />
+
+      7. What is the difference between `@RequestMapping` and `@GetMapping`?
+
+         RequestMapping can be used with GET, POST, PUT, and many other request methods using the method attribute on the annotation. Whereas getMapping is only an extension of RequestMapping which helps you to improve on clarity on request.
+
+      8. What is the use of Profiles in spring boot?
+
+         While developing the application we deal with multiple environments such as dev, QA, Prod, and each environment requires a different configuration. For eg., we might be using an embedded H2 database for dev but for prod, we might have proprietary Oracle or DB2. Even if DBMS is the same across the environment, the URLs will be different.
+
+         To make this easy and clean, Spring has the provision of Profiles to keep the separate configuration of environments.
+
+      9. What is dependency Injection?
+
+         The process of injecting dependent bean objects into target bean objects is called dependency injection.
+
+         - Setter Injection: The IOC container will inject the dependent bean object into the target bean object by calling the setter method.
+         - Constructor Injection: The IOC container will inject the dependent bean object into the target bean object by calling the target bean constructor.
+         - Field Injection: The IOC container will inject the dependent bean object into the target bean object by Reflection API.
+
+      10. What is an IOC container?
+
+          IoC Container is a framework for implementing automatic dependency injection. It manages object creation and its life-time and also injects dependencies into the class.
+
+
+
+### Additional
+
+https://www.marcobehler.com/guides/spring-boot-interview-questions
+
+
+
+
 
 # React.js
 
+### Additional
 
+https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions
+
+https://www.fullstack.cafe/blog/react-js-interview-questions
 
 # CI/CD
