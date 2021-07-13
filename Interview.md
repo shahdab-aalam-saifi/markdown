@@ -42,6 +42,22 @@
 
    <img src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/247/original/Spring_Boot_Flow_Architecture.png?1616151707" alt="img"  />
 
+   6. Why Spring Boot over Spring?
+
+      Below are some key points which spring boot offers but spring doesn’t:
+
+      - Starter POM.
+      - Version Management.
+      - Auto Configuration.
+      - Component Scanning.
+      - Embedded server.
+      - InMemory DB.
+      - Actuators
+
+      Spring Boot simplifies the spring feature for the user:
+
+      ![img](https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/245/original/Difference_Between_Spring_and_Spring_Boot.png?1616150564)
+
 # React.js
 
 
